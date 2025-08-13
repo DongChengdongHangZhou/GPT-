@@ -348,6 +348,7 @@ o	也可统计成功对齐率（几何残差阈值内）。
 •	推理速度：S 矩阵是 N_a\times N_b，典型 N~50–150，可接受；大模板用稀疏 KNN 限制计算。
 
 7) 一个可落地的 PyTorch 轮廓（伪代码）
+```
 class MinutiaEncoder(nn.Module):
     def __init__(self, d=128, k=8):
         super().__init__()
@@ -386,6 +387,7 @@ class CrossMatch(nn.Module):
         P = self.sinkhorn(S, maskA, maskB)  # 软双随机矩阵
         score = (P[..., :-1, :-1] * S[..., :-1, :-1]).sum(dim=(-1,-2))  # 全局分数
         return P, score
+```
 损失：
 •	同指：最大化 score，并对 P 选高权对拟合相似/仿射 T，加 L_geo = Huber(T(x_i)-y_j)；
 •	异指：最小化 score，并鼓励 P 质量落在 dustbin。
