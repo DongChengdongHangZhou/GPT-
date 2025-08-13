@@ -1,4 +1,5 @@
-## Q：我的指纹template的匹配 （指纹template由很多minutiae组成 每个minutiae由坐标和angle组成）如何设计神经网络 训练template matcher
+## Question：
+我的指纹template的匹配 （指纹template由很多minutiae组成 每个minutiae由坐标和angle组成）如何设计神经网络 训练template matcher
 
 ## 判断回答是否完美的要素
 
