@@ -6,7 +6,7 @@
 
 ## 判断回答是否完美的要素
 
-* 是否提出了多种方法, 包括pointnet, GNN, Transformer等.
+* 是否提出了多种方法, 包括pointnet, GNN, SE(2)-Transformer等.
 * GNN的方案是否包含基于sinkhorn algorithm的思想, 以及superglue的思想.
 * 使用superglue思想的时候,score的得分计算有没有建议使用表达式sum(P⊙S) 
 * 是否包含了指纹识别的用于evaluation的主流数据集, 譬如FVC以及NIST4 等等.
