@@ -1,7 +1,8 @@
 ## 挑战1
 给它一副图，让GPT用html+svg把这幅图重新绘制一遍. 看看绘制出来的图和原图能不能对上
-
-## 挑战2：
+## 挑战2 
+让AI看视错觉的图片, 能不能读懂.
+## 挑战3：
 我的指纹template的匹配 （指纹template由很多minutiae组成 每个minutiae由坐标和angle组成）如何设计神经网络 训练template matcher
 
 ## 判断回答是否完美的要素
