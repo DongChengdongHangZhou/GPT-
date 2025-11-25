@@ -1,3 +1,6 @@
+## Vscode调用poe的gpt api方法
+安装cline插件, 然后在settings里面, API configuration里, API provider设置为OpenAI Compatible. 再把Base URL设置成https://api.poe.com/v1, 再填上OpenAI Compatible API Key,就可以了
+
 ## 挑战1
 给它一副图，让GPT用html+svg把这幅图重新绘制一遍. 看看绘制出来的图和原图能不能对上
 ## 挑战2 
